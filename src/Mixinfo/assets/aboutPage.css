@@ -1,0 +1,65 @@
+.aboutText {
+  display: grid !important;
+  grid-template-columns: 23% 77%;
+  backdrop-filter: blur(77.5px);
+  border-radius: 1px;
+  padding-top: 30px;
+}
+.aboutText p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+/* Gallery */
+.gallery {
+  padding-top: 80px;
+}
+.gallery h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 69px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 40px;
+  gap: 30px;
+}
+.gallery-images img {
+  width: 100%;
+}
+.gallery-img {
+  display: flex;
+  flex-direction: column;
+  gap: 33.5px;
+}
+.gallery-btn {
+  width: 248px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #000000;
+  background: #fff;
+  padding: 12px 31px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.gallery-btn button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2a2c1f;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}

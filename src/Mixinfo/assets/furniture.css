@@ -1,0 +1,150 @@
+.detail {
+  margin: 35px 0 0;
+}
+.detail__btn button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  border: none;
+  padding-left: 8px;
+  background: transparent;
+  cursor: pointer;
+}
+.detail__btn {
+  border: 1px solid #000000;
+  display: inline-block;
+  padding: 15px 72px;
+  margin: 0 0 36px;
+  cursor: pointer;
+}
+.carusel {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  gap: 82px;
+}
+.carusel .carousel .control-dots {
+  z-index: -1 !important;
+}
+.carusel .carousel .thumbs-wrapper {
+  margin: 0 !important;
+}
+.carusel .carousel .thumb.selected,
+.carusel .carousel .thumb {
+  width: 33.3333% !important;
+  outline: none !important;
+  border: none !important;
+}
+.carusel .carousel .control-arrow,
+.carusel .carousel.carousel-slider .control-arrow {
+  opacity: 1 !important;
+}
+
+.carusel .carousel .control-next.control-arrow:before {
+  border-left: 8px solid #000 !important;
+}
+.carusel .carousel.carousel-slider {
+  overflow: visible !important;
+}
+.carusel .carousel.carousel-slider .control-arrow {
+  top: 540px !important;
+}
+.carusel .carousel .control-next.control-arrow {
+  right: -40px !important;
+}
+.carusel .carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #000 !important;
+}
+.carusel .carousel.carousel-slider .control-arrow:hover {
+  background: rgba(0, 0, 0, 0) !important;
+}
+.carusel .carousel .control-prev.control-arrow {
+  left: -40px !important;
+}
+.carusel__text h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32.986px;
+  line-height: 39px;
+  color: #030a1b;
+}
+.carusel__text h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.4479px;
+  line-height: 56px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 40px 0 15px;
+}
+.carusel__text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.7327px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #374151;
+}
+.delivery {
+  display: flex;
+  justify-content: center;
+  background: #f3f4f6;
+  border-radius: 7px;
+  padding: 30px 0;
+  margin: 40px 0;
+}
+.delivery__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 12px 0;
+}
+.carusel__text button {
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.9006px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid transparent;
+  background: #000000;
+  border-radius: 3px;
+  padding: 21px 0;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.carusel__text button:hover {
+  background: #ffffff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+/* Description */
+.descr h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #1f2937;
+  padding: 69px 0 28px;
+}
+.descr p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #6b7280;
+}
+.furniture .sales {
+  padding: 0;
+}
+.furniture .sales-cards {
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0;
+}
